@@ -4,6 +4,14 @@ import day03.practice.animal.Fly;
 
 public class Bat extends Mammal implements Fly {
 
+	public Bat() {;}
+	
+	public Bat (String name, int age, String type) {
+		super(name, age, type);
+	}
+	
+	
+	
 	@Override
 	public void walking() {
 		System.out.println("가끔 두 발로 걸어다닌다.");
